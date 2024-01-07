@@ -194,6 +194,26 @@
 
 .projectText {
     font-family: 'B612 Mono';
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+.footer {
+    position: fixed;
+    height: 56px;
+    bottom: 0;
+    width: 100%;
+}
+
+.footerIcons {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.footerIcon {
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 @media screen and (max-width: 991px) {
