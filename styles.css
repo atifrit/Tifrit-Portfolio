@@ -1,3 +1,27 @@
 .iconlink {
     color: black;
 }
+
+.headshot {
+    border-radius: 50%;
+}
+
+.headingcontainer {
+    background-color: lightblue;
+    padding: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title {
+    font-size: 80px;
+}
+
+.subtitle {
+    font-size: 50px;
+}
