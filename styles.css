@@ -4,6 +4,10 @@
 
 .headshot {
     border-radius: 50%;
+    border: 5px solid blue;
+    width: 300px;
+    height: 300px;
+    margin-top: 10px;
 }
 
 .headingcontainer {
@@ -19,9 +23,94 @@
 }
 
 .title {
-    font-size: 80px;
+    font-family: 'Archivo Narrow';
+    font-size: 60px;
+    margin: 10px;
 }
 
 .subtitle {
+    font-family: 'B612 Mono';
+    font-size: 30px;
+}
+
+.navbar {
+    position: relative;
+}
+
+.navbar-brand {
+    margin-left: 10px;
+}
+
+.navbar-toggler {
+    margin-right: 10px;
+}
+
+
+.openingDisplayContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtitlecontainer {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: rgb(219, 96, 96);
+    box-shadow: -10px 10px 0px rgb(217, 217, 217);
+}
+
+.sectionTitle {
+    margin-top: 100px;
+    background-color: rgb(252, 255, 107);
+    margin-right:15px;
+    box-shadow: 15px 0px 0px rgba(0, 26, 255, 0.7)
+}
+
+.sectionTitleText {
+    font-family: 'Archivo Narrow';
+    font-weight: bold;
+    font-size: 60px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.aboutTextContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.aboutText {
+    text-align: left;
+    margin-bottom: 10px;
+    font-family: 'B612 Mono';
+}
+
+.techTitle {
+    font-family: 'B612 Mono';
+    color: rgba(0, 26, 255, 0.7);
+    margin-right: 10px;
+    text-align: right;
+    font-weight: bold;
     font-size: 50px;
+    margin-top: 100px;
+}
+
+
+
+@media screen and (max-width: 991px) {
+    .links {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .mx-auto {
+        display: none;
+    }
 }
